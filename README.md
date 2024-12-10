@@ -85,3 +85,29 @@ Call the introduce method.
 - Write a function `capitalizeWords(str)` that capitalizes the first letter of each word in a string.
 - Test it with the sentence: "this is a test sentence."
 - Handle edge cases like extra spaces or empty strings.
+
+## 16. Promises and Async/Await
+- Write a function mockApiCall(data, delay) that:
+  - Returns a Promise.
+  - Resolves with the given data after delay milliseconds.
+- Call the function with data = "Hello" and delay = 2000.
+- Log the data after the promise resolves.
+- Add error handling to the promise.
+
+## 17. Fetch Multiple APIs
+- Write a function fetchAllData() that:
+  - Fetches data from two APIs (mock URLs or placeholders (`https://dummyjson.com/products`, `https://dummyjson.com/posts`)).
+  - Uses Promise.all() to fetch them in parallel.
+- Log both sets of data after all promises resolve.
+
+## 18. Spread and Rest Operators
+- Create two objects userDetails and preferences.
+- Use the spread operator to merge them into a new object userProfile.
+Log userProfile.
+- Add a new property lastUpdated with the current date during the merge.
+
+## 19. Combining Arrays
+- Create two arrays fruits and vegetables.
+- Use the spread operator to combine them into a single array groceries.
+Log groceries.
+- Add another array dairy to groceries dynamically.
